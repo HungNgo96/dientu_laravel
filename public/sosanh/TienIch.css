@@ -1,0 +1,2120 @@
+﻿
+
+.tienich html, body {
+    font-family: roboto,"Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*.tienich * {
+    margin: 0;
+    padding: 0;
+}*/
+
+.tienich body {
+    min-width: 1024px;
+}
+
+.tienich img {
+    border: 0;
+}
+
+
+
+.tienich a {
+    text-decoration: none;
+}
+
+.tienich ul, ol {
+    list-style: none;
+}
+
+.tienich .clr {
+    clear: both;
+}
+
+.tienich p {
+    -webkit-margin-start: 0;
+    text-rendering: geometricPrecision;
+}
+
+.tienich input[type=text], .tienich input[type=tel], .tienich textarea {
+    -webkit-appearance: none;
+}
+
+.pricecard {
+    margin: 0px 2% 0 0 !important;
+}
+
+    .pricecard img {
+        width: auto !important;
+    }
+
+.manufacture {
+    width: 95.5% !important;
+}
+
+.searchlocal {
+    display: block;
+    overflow: hidden;
+    padding: 10px 10px 0;
+}
+
+    .searchlocal .form {
+        display: block;
+        border: 1px solid #d9d9d9;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        background: #fff;
+        height: 34px;
+        position: relative;
+    }
+
+    .searchlocal input {
+        display: block;
+        border: 0;
+        background: #fff;
+        padding: 5px;
+        height: 24px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        width: 90%;
+    }
+
+    .searchlocal .submit {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 8px 10px;
+        background: #fff;
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;
+        border: 0;
+        height: 34px;
+    }
+
+.tienich section {
+    max-width: 1200px;
+    width: 100%;
+    min-width: 980px;
+    margin: 0 auto 40px;
+    position: relative;
+}
+
+[class^="icontgdd-"], [class*="icontgdd-"], [class^="iconmobile-"], [class*="iconmobile-"] {
+    background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/V4/icondesktop@1x.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:1.5) {
+    [class^="icontgdd-"], [class*="icontgdd-"], [class^="iconmobile-"], [class*="iconmobile-"] {
+        background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/V4/icondesktop@2x.png);
+        background-size: 500px 100px;
+    }
+}
+
+.tienich .leftcard {
+    float: left;
+    overflow: hidden;
+    width: 24.6%;
+    border: 1px solid #d9d9d9;
+}
+
+.tienich .navisimcard {
+    display: block;
+    overflow: hidden;
+    background: #fff;
+}
+
+    .tienich .navisimcard h3 {
+        display: block;
+        overflow: hidden;
+        padding: 10px;
+        line-height: 1.3em;
+        color: #fff;
+        background-color: #0195ff;
+        font-size: 17px;
+    }
+
+        .tienich .navisimcard h3 a {
+            padding: 0;
+            font-size: 17px;
+            border: none;
+            color: #fff;
+        }
+
+            .tienich .navisimcard h3 a:hover {
+                background: none;
+            }
+
+    .tienich .navisimcard a {
+        display: block;
+        padding: 17px 10px 10px 20px;
+        font-size: 14px;
+        color: #434a54;
+        border-top: 1px solid #d9d9d9;
+        height: 65px;
+        background: #f7f7f7;
+        color: #288ad6;
+        text-decoration: none;
+    }
+
+        .tienich .navisimcard a:first-child {
+            border-top: none;
+        }
+
+        .tienich .navisimcard a:hover {
+            background: #fff;
+        }
+
+        .tienich .navisimcard a.actmain {
+            background: #fff;
+            font-weight: 600;
+            color: #434a54;
+        }
+
+[class^="iconpaynew-"], [class*="iconpaynew-"] {
+    background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/iconpay@1x.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.tienich .iconpaynew-tragop {
+    background-position: 0 0;
+}
+
+.tienich .iconpaynew-dien {
+    background-position: -30px 0;
+    height: 33px;
+}
+
+.iconpaynew-nuoc {
+    background-position: -60px 0;
+}
+
+.tienich .iconpaynew-fpt {
+    background-position: -90px 5px;
+}
+
+.tienich .iconpaynew-viettel {
+    background-position: -125px 4px;
+    width: 34px;
+    margin-right: 6px;
+}
+
+.tienich .iconpaynew-vnpt {
+    background-position: -160px 0;
+    width: 25px;
+    margin-right: 15px;
+    float: left;
+}
+
+.tienich .iconpaynew-trasau {
+    background-position: -185px 0;
+    width: 20px;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.tienich .iconpaynew-tratruoc {
+    background-position: -205px 4px;
+}
+
+.tienich .iconpaynew-baohiem {
+    background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/iconTraGop/iconbaohiem@2x.png);
+    background-size: 22px 26px;
+    width: 22px;
+    height: 26px;
+}
+.tienich .iconpaynew-game {
+    background-image: url(../imgs/icons/game.svg);
+    background-size: 22px 26px;
+    width: 22px;
+    height: 26px;
+}
+.tienich .iconpaynew-other {
+    background-image: url(../imgs/icons/othersevices.svg);
+    background-size: 22px 26px;
+    width: 22px;
+    height: 26px;
+}
+[class^="iconsim-"], [class*="iconsim-"] {
+    background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/new_001_simcarddesktop@1x.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+}
+
+@media all and (-webkit-min-device-pixel-ratio:1.5) {
+    [class^="iconsim-"], [class*="iconsim-"] {
+        background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/new_001_simcarddesktop@2x.png);
+        background-size: 505px 260px;
+    }
+
+    [class^="iconpaynew-"], [class*="iconpaynew-"] {
+        background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/iconpay@2x.png);
+        background-size: 235px 35px;
+    }
+}
+
+.tienich .iconsim-internetviettel {
+    background-position: 0 0;
+    width: 60px;
+    height: 35px;
+    margin: 3px auto;
+}
+
+.tienich .iconsim-mobifone {
+    background-position: -65px 0;
+    width: 73px;
+    height: 12px;
+    display: block;
+    margin: 14px auto 15px;
+}
+
+.tienich .iconsim-vinaphone {
+    background-position: -145px 0;
+    width: 73px;
+    height: 17px;
+    display: block;
+    margin: 12px auto;
+}
+
+.tienich .iconsim-vnmobile {
+    background-position: -225px 0;
+    width: 50px;
+    height: 30px;
+    display: block;
+    margin: 6px auto 5px;
+}
+
+.tienich .iconsim-gmobile {
+    background-position: -285px 0;
+    width: 70px;
+    height: 24px;
+    display: block;
+    margin: 9px auto 8px;
+}
+
+.tienich .iconsim-vicoin {
+    background-position: 0 -40px;
+    width: 72px;
+    height: 24px;
+    display: block;
+    margin: 7px auto;
+}
+
+.tienich .iconsim-gate {
+    background-position: -80px -40px;
+    width: 49px;
+    height: 18px;
+    display: block;
+    margin: 10px auto;
+}
+
+.tienich .iconsim-zing {
+    background-position: -140px -40px;
+    width: 74px;
+    height: 26px;
+    display: block;
+    margin: 7px auto 5px;
+}
+
+.tienich .iconsim-megacard {
+    background-position: -225px -40px;
+    width: 68px;
+    height: 16px;
+    display: block;
+    margin: 11px auto;
+}
+
+.tienich .iconsim-gerena {
+    background-position: -348px -37px;
+    width: 68px;
+    height: 30px;
+    display: block;
+    margin: 5px auto;
+}
+
+.tienich .iconsim-homecredit {
+    background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/iconTraGop/iconhomecredit@2x.png);
+    background-size: 96px 19px;
+    width: 96px;
+    height: 19px;
+    display: inline-block;
+    margin-top: 13px;
+}
+
+.tienich .iconsim-fecredit {
+    background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/iconTraGop/iconFE@2x.png);
+    background-size: 109px 15px;
+    width: 109px;
+    height: 15px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.tienich .iconsim-acs {
+    background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/iconTraGop/iconACS@2x.png);
+    background-size: 40px 17px;
+    width: 40px;
+    height: 17px;
+    display: inline-block;
+    margin-top: 14px;
+}
+
+.tienich .iconsim-tragopjaccs {
+    background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/iconTraGop/iconjaccs@2x.png);
+    background-size: 56px 16px;
+    width: 56px;
+    height: 16px;
+    display: inline-block;
+    margin-top: 14px;
+}
+
+.tienich .iconsim-tragopmcredit {
+    background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/iconTraGop/iconmcredit@2x.png);
+    background-size: 86px 20px;
+    width: 86px;
+    height: 20px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.tienich .iconsim-hds {
+    background-image: url(//www.thegioididong.com/tien-ich/Content/desktop/images/iconTraGop/iconHDsaigon@2x.png);
+    background-size: 101px 16px;
+    width: 101px;
+    height: 16px;
+    display: inline-block;
+    margin-top: 14.5px;
+}
+
+.tienich .iconsim-dien {
+    background-position: 0 -222px;
+    width: 29px;
+    height: 26px;
+    display: inline-block;
+    margin: 8px 5px;
+}
+
+.tienich .iconsim-nuoc {
+    background-position: -35px -222px;
+    width: 24px;
+    height: 16px;
+    display: inline-block;
+    margin: 14px 5px;
+}
+
+.tienich .iconsim-internet {
+    background-position: -66px -223px;
+    width: 38px;
+    height: 27px;
+    display: inline-block;
+    margin: 8px 5px;
+}
+
+.tienich .iconsim-vnpt {
+    background-position: -111px -223px;
+    width: 31px;
+    height: 32px;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.tienich .iconsim-viettel {
+    background-position: 0 0;
+    width: 60px;
+    height: 35px;
+    margin: 3px auto;
+}
+
+.tienich .rightcard {
+    float: right;
+    overflow: hidden;
+    width: 74%;
+    border: 1px solid #d9d9d9;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+    .tienich .rightcard h1 {
+        display: block;
+        overflow: hidden;
+        padding: 15px 10px 10px 20px;
+        line-height: 1.3em;
+        font-size: 18px;
+        color: #000;
+        text-transform: uppercase;
+    }
+
+.tienich .homenetwork {
+    float: left;
+    overflow: hidden;
+    width: 50%;
+}
+
+.tienich .steps {
+    display: block;
+    overflow: visible;
+    margin: 10px 0 10px 20px;
+}
+
+    .tienich .steps .title {
+        display: block;
+        overflow: hidden;
+        clear: both;
+        font-size: 14px;
+        color: #333;
+        line-height: 20px;
+        padding: 10px 0;
+    }
+
+    .tienich .steps a {
+        float: left;
+        width: 20%;
+        overflow: hidden;
+        margin: 0 10px 10px 0;
+        border: 1px solid #999;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+    }
+
+        .tienich .steps a aside {
+            display: block;
+            overflow: hidden;
+            font-size: 12px;
+            color: #333;
+            border: 1px solid #fff;
+            border-radius: 2px;
+            height: 45px;
+        }
+
+        .tienich .steps a span {
+            padding: 10px 0;
+            display: block;
+            overflow: hidden;
+            text-align: center;
+            font-size: 12px;
+            color: #333;
+            border: 1px solid #fff;
+            border-radius: 2px;
+        }
+
+        .tienich .steps a.actsteps {
+            border: 1px solid #ff6206;
+        }
+
+            .tienich .steps a.actsteps span {
+                border: 1px solid #ff6206;
+            }
+
+            .tienich .steps a.actsteps aside {
+                border: 1px solid #ff6206;
+            }
+
+.tienich .step1 label.check {
+    border-color: #ccc;
+}
+
+.tienich .step1 a {
+    float: none;
+    width: auto;
+    overflow: auto;
+    margin: 0;
+    border: none;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.tienich .step1 label {
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #eee;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    text-align: left;
+    vertical-align: top;
+    white-space: nowrap;
+    margin: 0 10px 0 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+    .tienich .step1 label.noborder {
+        border: 0;
+    }
+
+.tienich .step1 .check .icontgdd-opt {
+    background-position: -400px -30px;
+}
+
+.tienich .step1 .icontgdd-opt {
+    background-position: -380px -30px;
+    width: 16px !important;
+    height: 16px !important;
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+.tienich .step1 label .icontgdd-opt {
+    margin-right: 0;
+}
+
+.tienich #company .icontgdd-opt {
+    background-position: -380px -30px;
+    width: 16px !important;
+    height: 16px !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+.tienich #company .actsteps .icontgdd-opt {
+    background-position: -400px -30px;
+}
+
+.tienich .homenetwork .actsteps .icontgdd-opt {
+    background-position: -400px -30px;
+}
+
+.tienich .step1 label img {
+    vertical-align: middle;
+}
+
+.tienich .elec {
+    display: block;
+    overflow: visible;
+    margin: 20px 10px;
+}
+
+    .tienich .elec a {
+        width: 48%;
+        margin: 0 0 10px;
+    }
+
+        .tienich .elec a:nth-child(2n+1) {
+            float: right;
+        }
+
+        .tienich .elec a label {
+            font-size: 13px;
+            color: #999;
+            display: inline-flex;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+
+.tienich .steps a.actsteps .iconsim-viettel {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-mobifone {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-vinaphone {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-vnmobile {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-gmobile {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-vicoin {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-gate {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-zing {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-megacard {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-homecredit {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-fecredit {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-acs {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-hds {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-dien {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-nuoc {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-internet {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps a.actsteps .iconsim-vnpt, .steps a.actsteps .iconsim-internetviettel {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .steps .actsteps label {
+    color: #ff6206;
+}
+
+.tienich .click {
+    display: block;
+    overflow: hidden;
+    width: unset !important;
+    border: unset !important;
+    border-radius: unset !important;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #00a1e4;
+    cursor: pointer;
+}
+
+.tienich .clickedit {
+    display: block;
+    overflow: hidden;
+    padding: 5px 0;
+    font-size: 14px;
+    color: #00a1e4;
+    cursor: pointer;
+}
+
+.tienich .wrapnumber {
+    display: block;
+    overflow: visible;
+    position: relative;
+    margin: 10px 0 10px 20px;
+}
+
+    .tienich .wrapnumber span {
+        float: left;
+        font-size: 14px;
+        padding: 10px 0;
+    }
+
+.tienich .choose {
+    float: left;
+    cursor: pointer;
+    position: relative;
+    padding: 8px 10px 8px 10px;
+    width: 60px;
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+
+.tienich .cost {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
+    border-top: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+}
+
+    .tienich .cost li {
+        float: left;
+        width: 33%;
+        height: 100px;
+        border-right: 1px solid #d6d6d6;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+        .tienich .cost li div {
+            display: block;
+            overflow: hidden;
+            padding: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .tienich .cost li span {
+            display: block;
+            overflow: hidden;
+            padding: 15px 5px 0;
+            font-size: 16px;
+            color: #de0505;
+        }
+
+.tienich .choose sub {
+    float: right;
+    margin: 6px 0 6px 10px;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #333;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.tienich .number {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: -27%;
+    width: 100px;
+    overflow: visible;
+    background: #fff;
+    padding-bottom: 10px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    z-index: 1;
+}
+
+    .tienich .number a {
+        display: block;
+        padding: 10px 10px 0;
+        width: auto !important;
+        font-size: 14px;
+        color: #333;
+        margin: 0;
+        border: 0;
+        float: none;
+    }
+
+    .tienich .number:after, .number:before {
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .tienich .number:after {
+        border-bottom-color: #fff;
+        border-width: 6px;
+        margin-left: -6px;
+    }
+
+    .tienich .number:before {
+        border-bottom-color: #c6c6c6;
+        border-width: 7px;
+        margin-left: -7px;
+    }
+
+.tienich .total {
+    float: left;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+    .tienich .total strong {
+        color: #ff792b;
+    }
+
+.tienich .steps .fullinput {
+    display: block;
+    padding: 8px 0;
+    text-indent: 10px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #c6c6c6;
+    background: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 95.4%;
+    height: 20px;
+}
+
+.tienich .dinfor {
+    display: block;
+    margin: 0 auto;
+}
+
+.tienich .dphone {
+    float: left;
+    width: 45.8%;
+}
+
+    .tienich .dphone .dtinput {
+        padding: 8px 0;
+        text-indent: 10px;
+        font-size: 14px;
+        border: 1px solid #c6c6c6;
+        background: #fff;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 20px;
+    }
+
+.tienich .dname {
+    float: left;
+    width: 46.8%;
+    margin-left: 17px;
+}
+
+    .tienich .dname .nameinput {
+        padding: 8px 0;
+        text-indent: 10px;
+        font-size: 14px;
+        border: 1px solid #c6c6c6;
+        background: #fff;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 20px;
+        margin-right: 24px;
+    }
+
+.tienich .steps .inputphone {
+    float: left;
+    padding: 8px 0;
+    text-indent: 10px;
+    font-size: 14px;
+    border: 1px solid #c6c6c6;
+    background: #fff;
+    border-radius: 4px;
+    margin: 0 3% 10px 0;
+    width: 40%;
+    height: 20px;
+}
+
+.tienich .steps .inputafter {
+    display: block;
+    padding: 8px 0;
+    text-indent: 10px;
+    font-size: 14px;
+    border: 1px solid #c6c6c6;
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 84%;
+    height: 20px;
+}
+
+.tienich .steps .inputins {
+    display: block;
+    padding: 8px 0;
+    text-indent: 10px;
+    font-size: 14px;
+    border: 1px solid #c6c6c6;
+    background: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 20px;
+}
+
+.tienich .steps a.atm {
+    color: #fff;
+    padding: 5px 0;
+    width: 46%;
+    margin: 0;
+    text-align: center;
+    background: #2b62b1;
+    font-size: 13px;
+    text-transform: uppercase;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#2056a5),to(#2b62b1));
+    background: -webkit-linear-gradient(top,#2b62b1,#2056a5);
+    background: -moz-linear-gradient(top,#2b62b1,#2056a5);
+    background: -ms-linear-gradient(top,#2b62b1,#2056a5);
+    background: -o-linear-gradient(top,#2b62b1,#2056a5);
+    border-color: #2b62b1;
+}
+
+    .tienich .steps a.atm span {
+        padding: 0;
+        color: #fff;
+        font-size: 11px;
+        text-transform: none;
+        border: 0;
+        border-radius: 0;
+    }
+
+.tienich .steps a.visa {
+    color: #fff;
+    float: right;
+    width: 46%;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 14px 0;
+    margin-right: 20px;
+    text-align: center;
+    background: #2b62b1;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#1f3584),to(#074bae));
+    background: -webkit-linear-gradient(top,#074bae,#1f3584);
+    background: -moz-linear-gradient(top,#074bae,#1f3584);
+    background: -ms-linear-gradient(top,#074bae,#1f3584);
+    background: -o-linear-gradient(top,#074bae,#1f3584);
+    border-color: #2b62b1;
+}
+
+.tienich .billpay {
+    display: block;
+    color: #fff;
+    padding: 18px 0;
+    width: 86.5%;
+    margin-left: 20px;
+    text-align: center;
+    background: #f89406;
+    font-size: 13px;
+    text-transform: uppercase;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#f76b1c),to(#f89406));
+    background: -webkit-linear-gradient(top,#f89406,#f76b1c);
+    background: -moz-linear-gradient(top,#f89406,#f76b1c);
+    background: -ms-linear-gradient(top,#f89406,#f76b1c);
+    background: -o-linear-gradient(top,#f89406,#f76b1c);
+    border-color: #f89406;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.tienich .after a {
+    margin-right: 40px;
+}
+
+.tienich .btnafter a.atm {
+    width: 32%;
+}
+
+.tienich .btnafter a.visa {
+    width: 34%;
+    float: left;
+    margin-left: 10px;
+}
+
+.tienich .error {
+    display: block;
+    clear: both;
+    color: red;
+    line-height: 20px;
+}
+
+.tienich .homenetwork > .error {
+    margin-left: 20px;
+}
+
+.tienich .lierror {
+    display: block;
+    margin-left: 20px;
+    color: #333;
+    line-height: 16px;
+    font-style: italic;
+}
+
+.tienich .error a {
+    color: #288ad6;
+    float: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    border: 0;
+    border-radius: 0;
+}
+
+.tienich .networkhelp {
+    display: block;
+    overflow: hidden;
+    font-size: 12px;
+    color: #333;
+    line-height: 20px;
+}
+
+.tienich .secure {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+    padding: 10px;
+    margin: 0 0 0 10px;
+}
+
+.tienich .iconsim-secure {
+    background-position: -360px 0;
+    width: 70px;
+    height: 30px;
+    margin-top: -8px;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .notecard {
+    display: block;
+    margin: 10px 0;
+    font-size: 11px;
+    color: #333;
+    line-height: 20px;
+}
+
+    .tienich .notecard a {
+        color: #288ad6;
+        border: 0;
+        border-radius: 0;
+        float: none;
+        margin: 0;
+        width: auto;
+    }
+
+.tienich .paydetail {
+    display: block;
+    overflow: hidden;
+    font-size: 15px;
+    color: #333;
+    padding: 20px 10px 10px;
+    text-transform: uppercase;
+}
+
+    .tienich .paydetail a {
+        font-size: 14px;
+        color: #00a1e4;
+        text-transform: none;
+        padding: 0 10px 0 0;
+    }
+
+.tienich .iconsim-back {
+    background-position: -300px -40px;
+    width: 12px;
+    height: 17px;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    margin-top: -2px;
+}
+
+.tienich .billdetail {
+    display: block;
+    overflow: hidden;
+    margin: 0 10px 10px 20px;
+    width: 360px;
+}
+
+    .tienich .billdetail li {
+        display: block;
+        overflow: visible;
+        font-size: 14px;
+        color: #333;
+    }
+
+    .tienich .billdetail > li {
+        clear: both;
+    }
+
+.tienich .complete li {
+    clear: both;
+}
+
+.tienich .billdetail li div {
+    float: left;
+    padding: 3% 0;
+    width: 50%;
+}
+
+.tienich .billdetail li input {
+    padding: 8px;
+    width: 89%;
+    height: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.tienich .billdetail li strong {
+    font-size: 18px;
+    color: #de0505;
+}
+
+.tienich .billdetail li .contract {
+    float: left;
+    width: 95px;
+    position: relative;
+    padding: 8px 0 8px 10px;
+    margin-top: -8px;
+    font-size: 12px;
+    color: #333;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+}
+
+    .tienich .billdetail li .contract sub {
+        float: right;
+        margin: 6px 10px 0;
+        width: 0;
+        height: 0;
+        border-top: 5px solid #333;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+    }
+
+.tienich .billdetail li .numbercontract {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100px;
+    overflow: visible;
+    background: #fff;
+    padding-bottom: 10px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+}
+
+    .tienich .billdetail li .numbercontract a {
+        display: block;
+        padding: 10px 10px 5px;
+        width: auto;
+        font-size: 14px;
+        color: #333;
+        margin: 0;
+        border: 0;
+        float: none;
+    }
+
+    .tienich .billdetail li .numbercontract:after, .billdetail li .numbercontract:before {
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .tienich .billdetail li .numbercontract:after {
+        border-bottom-color: #fff;
+        border-width: 6px;
+        margin-left: -6px;
+    }
+
+    .tienich .billdetail li .numbercontract:before {
+        border-bottom-color: #c6c6c6;
+        border-width: 7px;
+        margin-left: -7px;
+    }
+
+.tienich .billdetail li ul {
+    display: block;
+    overflow: hidden;
+    width: 99.4%;
+    margin: 10px 0;
+    border-top: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+}
+
+.tienich .billdetail li li {
+    float: left;
+    width: 33.05%;
+    height: 100px;
+    border-right: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+    .tienich .billdetail li li div {
+        display: block;
+        float: none;
+        width: 90%;
+        overflow: hidden;
+        padding: 5px 5%;
+        font-size: 14px;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .tienich .billdetail li li span {
+        display: block;
+        overflow: hidden;
+        padding: 15px 5px 0;
+        font-size: 16px;
+        color: red;
+        font-weight: bold;
+    }
+
+.tienich .manufa {
+    display: block;
+    width: 93%;
+    position: relative;
+    padding: 8px 0 8px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #288ad6;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+}
+
+    .tienich .manufa sub {
+        float: right;
+        margin: 6px 10px 0;
+        width: 0;
+        height: 0;
+        border-top: 5px solid #288ad6;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+    }
+
+.tienich .manufacture {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    width: 100%;
+    overflow: visible;
+    background: #fff;
+    padding-bottom: 10px;
+    border: 1px solid #c6c6c6;
+    border-radius: 4px;
+    z-index: 1;
+    max-height: 300px;
+}
+
+    .tienich .manufacture a {
+        display: block;
+        padding: 10px 10px 5px;
+        width: auto;
+        font-size: 14px;
+        color: #288ad6;
+        margin: 0;
+        border: 0;
+        float: none;
+    }
+
+    .tienich .manufacture:after, .manufacture:before {
+        bottom: 100%;
+        left: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+    }
+
+    .tienich .manufacture:after {
+        border-bottom-color: #fff;
+        border-width: 6px;
+        margin-left: -6px;
+    }
+
+    .tienich .manufacture:before {
+        border-bottom-color: #c6c6c6;
+        border-width: 7px;
+        margin-left: -7px;
+    }
+
+    .tienich .manufacture .scroll {
+        float: left;
+        width: 100%;
+        max-height: 170px;
+        overflow: auto;
+    }
+
+    .tienich .manufacture aside {
+        float: left;
+        width: 50%;
+    }
+
+.tienich .helpcode {
+    display: block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #288ad6;
+    padding: 0 10px 10px;
+}
+
+    .tienich .helpcode sub {
+        position: relative;
+        top: 5px;
+        margin-left: 8px;
+        width: 0;
+        height: 0;
+        border-top: 5px solid #288ad6;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+    }
+
+.tienich .viewcode {
+    display: none;
+    overflow: hidden;
+    margin: 10px;
+}
+
+    .tienich .viewcode img {
+        display: block;
+        margin: auto;
+        max-width: 414px;
+        height: auto;
+    }
+
+.tienich .choosepay {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
+    width: 388px;
+}
+
+.tienich .choosewater {
+    display: block;
+    overflow: hidden;
+    margin: 10px 0;
+    width: 100%;
+}
+
+    .tienich .choosewater .billpay {
+        margin: 0 auto;
+        width: 91%;
+    }
+
+.tienich .choosepay span {
+    display: block;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.tienich .choosepay .atm {
+    float: left;
+    color: #fff;
+    padding: 12px 0;
+    width: 46%;
+    margin-left: 10px;
+    text-align: center;
+    background: #2b62b1;
+    font-size: 13px;
+    text-transform: uppercase;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#2056a5),to(#2b62b1));
+    background: -webkit-linear-gradient(top,#2b62b1,#2056a5);
+    background: -moz-linear-gradient(top,#2b62b1,#2056a5);
+    background: -ms-linear-gradient(top,#2b62b1,#2056a5);
+    background: -o-linear-gradient(top,#2b62b1,#2056a5);
+    border-radius: 4px;
+}
+
+    .tienich .choosepay .atm span {
+        color: #fff;
+        font-size: 11px;
+        text-transform: none;
+        display: block;
+        line-height: normal;
+    }
+
+.tienich .choosepay .visa {
+    float: right;
+    color: #fff;
+    float: right;
+    width: 46%;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 18px 0;
+    margin-right: 10px;
+    text-align: center;
+    background: #2b62b1;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#1f3584),to(#074bae));
+    background: -webkit-linear-gradient(top,#074bae,#1f3584);
+    background: -moz-linear-gradient(top,#074bae,#1f3584);
+    background: -ms-linear-gradient(top,#074bae,#1f3584);
+    background: -o-linear-gradient(top,#074bae,#1f3584);
+    border-radius: 4px;
+}
+
+.tienich .backpay {
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 14px;
+    color: #288ad6;
+}
+
+.tienich .backpaysuccess {
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background: #288ad6;
+    text-align: center;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    width: 210px;
+    margin: 0 auto 10px;
+}
+
+.tienich .backerror {
+    display: block;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 14px;
+    color: #288ad6;
+    border: 1px solid #288ad6;
+    border-radius: 4px;
+    width: 160px;
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
+.tienich .paysuccess {
+    display: block;
+    overflow: hidden;
+    padding: 15px 0;
+    font-size: 16px;
+    color: #333;
+    width: 360px;
+    margin: auto;
+    margin: 10px 20px;
+    line-height: 28px;
+}
+
+    .tienich .paysuccess label {
+        color: #c0392b;
+        font-weight: normal;
+        font-size: 20px;
+    }
+
+    .tienich .paysuccess b {
+        font-size: 20px;
+    }
+
+.tienich .iconsim-success {
+    background-position: 0 -130px;
+    width: 84px;
+    height: 84px;
+    display: block;
+    margin: auto;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+}
+
+.tienich .iconsim-close {
+    background-position: -315px -40px;
+    width: 25px;
+    height: 24px;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.tienich .iconsim-warning {
+    background-position: -177px -129px;
+    width: 86px;
+    height: 86px;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    display: block;
+    margin: auto;
+}
+
+.tienich .wrap_export {
+    display: block;
+    overflow: hidden;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    width: 375px;
+    padding: 10px;
+    position: relative;
+}
+
+.tienich .errorpage {
+    display: block;
+    overflow: hidden;
+    margin: 20px auto;
+    width: 280px;
+    padding-top: 20px;
+}
+
+    .tienich .errorpage strong {
+        display: block;
+        font-size: 19px;
+        color: #bf0e0e;
+        line-height: 1.3em;
+    }
+
+    .tienich .errorpage div {
+        display: block;
+        font-size: 14px;
+        color: #333;
+        margin-bottom: 5px;
+    }
+
+    .tienich .errorpage a {
+        color: #288ad6;
+    }
+
+.tienich .iconsim-error {
+    background-position: -90px -130px;
+    width: 83px;
+    height: 83px;
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    display: block;
+    margin: auto;
+}
+
+
+
+.tienich .btnpay {
+    position: relative;
+}
+
+.tienich .btnpaydetail {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0 10px 10px 20px;
+    width: 360px;
+}
+
+.tienich .btnviewbill {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+.tienich #processing {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    max-height: 500px;
+}
+
+.tienich .clOpacity {
+    position: relative;
+    opacity: .1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s;
+}
+
+    .tienich .clOpacity a {
+        pointer-events: none;
+        cursor: default;
+    }
+
+.tienich #error {
+    display: block;
+    margin: 10px auto;
+    margin-left: 20px;
+    color: red;
+}
+
+.tienich .here {
+    color: red !important;
+}
+
+.tienich .homenetwork {
+    width: 50%;
+}
+
+.tienich .pricecard {
+    float: right;
+    width: 48%;
+    overflow: hidden;
+    margin: 50px 5% 0 0;
+}
+
+    .tienich .pricecard ul {
+        display: block;
+        overflow: hidden;
+        border: 1px solid #afe3ff;
+        border-radius: 4px;
+    }
+
+        .tienich .pricecard ul li {
+            display: block;
+            overflow: hidden;
+            padding: 10px;
+            border-top: 1px solid #afe3ff;
+        }
+
+            .tienich .pricecard ul li span {
+                float: left;
+                width: 50%;
+                text-align: center;
+            }
+
+            .tienich .pricecard ul li strong {
+                float: right;
+                width: 48%;
+                text-align: right;
+                margin-right: 8%;
+            }
+
+            .tienich .pricecard ul li:first-child {
+                background: #afe3ff;
+            }
+
+                .tienich .pricecard ul li:first-child span {
+                    width: 50%;
+                }
+
+                .tienich .pricecard ul li:first-child span, .pricecard ul li:first-child strong {
+                    text-align: center;
+                }
+
+    .tienich .pricecard div {
+        display: block;
+        overflow: hidden;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .tienich .pricecard img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+
+.tienich .step_1 a, .step_2 a {
+    width: 17% !important;
+}
+
+.tienich .icontgdd-opt {
+    background-position: -380px -30px;
+    width: 16px !important;
+    height: 16px !important;
+    display: inline-block;
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+.tienich .content {
+    padding: 20px;
+    height: 370px;
+}
+
+.tienich .rightcard .content h1 {
+    padding: 0;
+    margin-bottom: 10px;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.tienich .content label {
+    display: inline-block;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+    margin: 0 30px 10px 0;
+    float: left;
+    cursor: pointer;
+}
+
+.tienich .content .check .icontgdd-opt {
+    background-position: -400px -30px;
+}
+
+.tienich .content input {
+    display: block;
+    width: 96.5%;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    height: 18px;
+    text-indent: 5px;
+    font-size: 14px;
+    color: #333;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+    .tienich .content input::-webkit-input-placeholder {
+        color: #999;
+    }
+
+    .tienich.content input::-moz-placeholder {
+        color: #999;
+    }
+
+    .tienich .content input:-ms-input-placeholder {
+        color: #999;
+    }
+
+    .tienich.content input:-moz-placeholder {
+        color: #999;
+    }
+
+.tienich .content .btndis {
+    display: inline-block;
+    width: 48.5%;
+    vertical-align: top;
+    padding: 4px 0;
+    background: #fafafa;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    color: #999;
+    font-size: 12px;
+    line-height: 1.3em;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.tienich .content .atm {
+    background: #4a90e2;
+    color: #fff;
+    border-color: #2465c7;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#205db6),to(#2a71d8));
+    background: -webkit-linear-gradient(top,#2a71d8,#205db6);
+    background: -moz-linear-gradient(top,#2a71d8,#205db6);
+    background: -ms-linear-gradient(top,#2a71d8,#205db6);
+    background: -o-linear-gradient(top,#2a71d8,#205db6);
+    margin-bottom: 10px;
+}
+
+.tienich .content .visa {
+    background: #0037a0;
+    color: #fff;
+    border-color: #001f5b;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from(#00308a),to(#0037a0));
+    background: -webkit-linear-gradient(top,#0037a0,#00308a);
+    background: -moz-linear-gradient(top,#0037a0,#00308a);
+    background: -ms-linear-gradient(top,#0037a0,#00308a);
+    background: -o-linear-gradient(top,#0037a0,#00308a);
+    margin-bottom: 10px;
+}
+
+.tienich .wrapchoose {
+    display: block;
+    height: 32px;
+    margin: 10px 0;
+    clear: both;
+    text-align: left;
+    position: relative;
+}
+
+.tienich .choosenum {
+    float: left;
+    position: relative;
+    padding: 5px 0 5px 10px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+    .tienich .choosenum:after {
+        content: '';
+        width: 0;
+        height: 0;
+        border-top: 5px solid #999;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 5px;
+        position: relative;
+        top: -1px;
+    }
+
+.tienich .numcard {
+    display: none;
+    overflow: visible;
+    position: absolute;
+    top: 32px;
+    left: 0;
+    background: #fff;
+    border: 1px solid #eee;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    width: 65px;
+    padding: 5px 8px;
+}
+
+    .tienich .numcard a {
+        display: block;
+        padding: 5px 0;
+        font-size: 14px;
+        color: #333;
+        border-bottom: 1px solid #eee;
+        text-align: left;
+    }
+
+        .tienich .numcard a:hover {
+            color: #288ad6;
+        }
+
+        .tienich .numcard a:last-child {
+            border: 0;
+        }
+
+    .tienich .numcard:before, .numcard:after {
+        content: '';
+        width: 0;
+        height: 0;
+        position: absolute;
+        bottom: 100%;
+        left: 24px;
+        border-bottom: 6px solid #eee;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+    }
+
+    .tienich .numcard:after {
+        border-bottom-color: #fff;
+        border-width: 5px;
+        position: absolute;
+        left: 25px;
+    }
+
+.tienich .wrapchoose .money {
+    float: left;
+    overflow: hidden;
+    font-size: 14px;
+    color: #333;
+}
+
+    .tienich .wrapchoose .money span {
+        color: #c10017;
+    }
+
+.tienich .net {
+    margin-top: 10px;
+}
+
+    .tienich .net img {
+        height: 16px;
+        margin-right: 10px;
+    }
+
+
+
+
+.pricecard {
+    margin: 0px 2% 0 0 !important;
+}
+
+    .pricecard img {
+        width: auto !important;
+    }
+
+.manufacture {
+    width: 95.5% !important;
+}
+
+.searchlocal {
+    display: block;
+    overflow: hidden;
+    padding: 10px 10px 0;
+}
+
+    .searchlocal .form {
+        display: block;
+        border: 1px solid #d9d9d9;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        background: #fff;
+        height: 34px;
+        position: relative;
+    }
+
+    .searchlocal input {
+        display: block;
+        border: 0;
+        background: #fff;
+        padding: 5px;
+        height: 24px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        width: 90%;
+    }
+
+    .searchlocal .submit {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 8px 10px;
+        background: #fff;
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;
+        border: 0;
+        height: 34px;
+    }
+
+.tienich .radio-credits::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.tienich .radio-credits > label {
+    display: block;
+    float: left;
+    border: #EEE 1px solid;
+    padding: 5px;
+    margin-right: 10px;
+    width: 120px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+}
+
+    .tienich .radio-credits > label.checked {
+        border: #E00 1px solid;
+    }
+
+    .tienich .radio-credits > label > input[type=radio] {
+        position: absolute;
+        left: 5px;
+        top: 7px;
+    }
+
+    .tienich .radio-credits > label > span {
+        background: none no-repeat center center;
+        text-indent: -200px;
+        overflow: hidden;
+        display: block;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        left: 25px;
+        bottom: 5px;
+        background-size: contain;
+    }
+
+    .tienich .radio-credits > label.disabled {
+        opacity: .5;
+        background: #eee;
+    }
+
+    .tienich .radio-credits > label.cr-fe > span {
+        background-image: url('../imgs/icons/fecredit.png');
+    }
+
+    .tienich .radio-credits > label.cr-home > span {
+        background-image: url('../imgs/icons/homecredit.png');
+    }
+
+
+    .tienich .radio-credits > label.cr-mredit > span {
+        background-image: url('../imgs/icons/mcredit.png');
+    }
+
+
+    .tienich .radio-credits > label.cr-msbcrdt > span {
+        background-image: url('../imgs/icons/MaritimeBank.png');
+    }
+
+
+    .tienich .radio-credits > label.cr-ocbcrdt > span {
+        background-image: url('../imgs/icons/ocb.png');
+    }
+
+
+    .tienich .radio-credits > label.cr-doctordong > span {
+        background-image: url('../imgs/icons/DoctorDong.png');
+    }
+
+
+    .tienich .radio-credits > label.cr-mirae > span {
+        background-image: url('../imgs/icons/MiraeAsset.png');
+    }
+     .tienich .radio-credits > label.cr-acs > span {
+        background-image: url('../imgs/icons/acs.png');
+    }
+
+@media screen and (max-width : 768px) {
+    body .tienich .pricecard{
+        display:none;
+    }
+    .tienich section{
+        min-width:initial;
+    }
+    .tienich .homenetwork{
+        width:auto;
+    }
+    .tienich .leftcard{
+        width:100%;
+        float:none;
+        margin-bottom:10px;
+    }
+        .tienich .leftcard .navisimcard a {
+            width: 50%;
+            float: left;
+            border-top:none;
+        }
+
+    .tienich .rightcard {
+        width: 100%;
+        float: none;
+    }
+    .tienich .steps{
+        margin-right:10px;
+    }
+    [class^="iconpaynew-"], [class*="iconpaynew-"]{
+        float:left;
+    }
+}

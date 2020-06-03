@@ -1,0 +1,67 @@
+﻿#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+    text-shadow: 1px 1px 5px #333;
+    pointer-events:none;
+}
+
+    .snowflake.flower::after {
+        background: url("../imgs/HoaMai_F.png") no-repeat center center;
+        height:32px;
+        width:32px;
+        background-size:cover;
+    }
+    
+    .snowflake.flower.size-2::after {
+        height:16px;
+        width:16px;
+    }
+    .snowflake.flower.size-3::after {
+        height:24px;
+        width:24px;
+    }
+    .snowflake.flower.size-4::after {
+        height:8px;
+        width:8px;
+    }
+    .snowflake::after {
+        content: '*';
+        display: inline-block;
+        animation-duration: 10s;
+        animation-name: rotate;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-timing-function: linear;
+    }
+
+    .snowflake.flower::after {
+        content: '';
+        background-image: url("../imgs/HoaMai_F.png");
+    }
+
+    .snowflake:hover {
+        cursor: default;
+    }
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
